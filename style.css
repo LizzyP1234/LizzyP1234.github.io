@@ -10,7 +10,7 @@
 	margin-bottom: 10px;
     margin-top: 10px;
     background-color: white;
-    color:black
+    color:black;
     font-family: 'Slabo 27px', serif;
     border-style: solid;
     border-width: 3pt;
@@ -30,6 +30,14 @@ body {
 
 
 .jumbotron {
-	background-image: url(https://thumbs.imagekind.com/4865531_650/Beach-Huts-In-Pastel-Colors_art.jpg?v=1437448204);
-	background-size: cover;
+  background-image: url("../img/BeachHuts.jpg");
+  height:300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:1px solid #ff6a00
+}
+.jumbotron .container {
+  position:relative;
+  top:50px;
+}
 }
